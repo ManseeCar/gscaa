@@ -93,7 +93,7 @@ export function PetitionForm() {
           body: JSON.stringify({
             // ⚠️ IMPORTANT: Replace with your Web3Forms access key
             // Get yours free at https://web3forms.com (enter tizayisithole@gmail.com as recipient)
-            access_key: 'YOUR_WEB3FORMS_ACCESS_KEY_HERE',
+            access_key: 'f548e39b-6bcf-440d-8681-b89baf936802',
             subject: 'New GCSAA Africa Chapter Petition of Interest',
             from_name: 'GCSAA Africa Petition',
             // Form fields
