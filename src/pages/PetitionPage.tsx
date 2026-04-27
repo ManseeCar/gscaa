@@ -259,10 +259,10 @@ export function PetitionPage({ onNavigate }: PetitionPageProps) {
                   <Mail className="w-6 h-6" />
                 </div>
                 <a
-                  href="mailto:tizayisithole@gmail.com"
+                  href="mailto:africachapter@greenkeeperchronicles.com"
                   className="font-body text-lg hover:text-gold transition-colors">
                   
-                  tizayisithole@gmail.com
+                  africachapter@greenkeeperchronicles.com
                 </a>
               </div>
 
@@ -273,10 +273,10 @@ export function PetitionPage({ onNavigate }: PetitionPageProps) {
                   <Phone className="w-6 h-6" />
                 </div>
                 <a
-                  href="tel:+14752586465"
+                  href="tel:+14757317569"
                   className="font-body text-lg hover:text-gold transition-colors">
                   
-                  +1 (475) 258-6465
+                  +1 (475) 731-7569
                 </a>
               </div>
             </div>
