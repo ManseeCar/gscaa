@@ -119,6 +119,68 @@ export function FounderPage({ onNavigate }: FounderPageProps) {
         </div>
       </header>
 
+      {/* Video Message */}
+      <section className="py-20 md:py-28 px-6 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: 20
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0
+            }}
+            viewport={{
+              once: true
+            }}
+            transition={{
+              duration: 0.6
+            }}
+            className="text-center mb-12">
+            
+            <span className="inline-block px-4 py-1.5 rounded-full bg-forest/5 border border-forest/10 text-forest font-body text-xs font-bold tracking-widest uppercase mb-4">
+              Watch
+            </span>
+            <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-forest mb-4">
+              A Message from the Founder
+            </h2>
+            <div className="h-1 w-16 bg-gold mx-auto" />
+          </motion.div>
+
+          <motion.div
+            initial={{
+              opacity: 0,
+              scale: 0.96
+            }}
+            whileInView={{
+              opacity: 1,
+              scale: 1
+            }}
+            viewport={{
+              once: true
+            }}
+            transition={{
+              duration: 0.6,
+              delay: 0.1
+            }}
+            className="relative">
+            
+            {/* Gold offset accent */}
+            <div className="absolute -bottom-3 -right-3 w-full h-full rounded-2xl border-2 border-gold/30 -z-10" />
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-forest aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/p_FOi4K6x58?rel=0&modestbranding=1"
+                title="A Message from the Founder — Tizayi Tundu Sithole"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full" />
+              
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Meet the Founder */}
       <section className="py-20 md:py-28 px-6 bg-cream">
         <div className="max-w-5xl mx-auto">
